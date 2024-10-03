@@ -9,7 +9,7 @@ pipeline{
                 script {
                     // Printing default variables
                     println "BUILD_NUMBER is ${BUILD_NUMBER}"
-                    Println "WORKSPACE is ${WORKSPACE}"
+                    println "WORKSPACE is ${WORKSPACE}"
 
                     //Printing the parameter values
                     println "Selected env is ${params.ENV}"       
