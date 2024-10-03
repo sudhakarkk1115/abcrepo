@@ -6,10 +6,8 @@ pipeline{
                 script {
                     // Printing default variables
                     Println "BUILD_NUMBER is ${BUILD_NUMBER}"
-                    Println
-                    
-                    
-                   
+                    Println "WORKSPACE is ${WORKSPACE}"          
+                                     
                 }
             }
         }
