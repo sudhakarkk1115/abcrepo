@@ -11,6 +11,12 @@ pipeline{
                     list1=[10,20,30,40]
                     for (i in list1) {
                         println "my i value is ${i}"
+                    }
+
+                    j=1
+                    while(j<=10){
+                        println "J value is ${j}"
+                        j=j+1
                     }                   
                     
                 }
