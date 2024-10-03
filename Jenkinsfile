@@ -5,8 +5,8 @@ pipeline{
             steps {
                 script {
                     // Printing default variables
-                    Println "BUILD_NUMBER is ${BUILD_NUMBER}"
-                    Println "WORKSPACE is ${WORKSPACE}"          
+                    println "BUILD_NUMBER is ${BUILD_NUMBER}"
+                    println "WORKSPACE is ${WORKSPACE}"          
                                      
                 }
             }
