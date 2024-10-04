@@ -10,6 +10,7 @@ pipeline{
             steps {
                 script {
                     // Calling a function
+                    myfn()
                     myfn(200,400)
                     myfn(100)
                 }
