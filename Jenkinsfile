@@ -1,4 +1,4 @@
-def myfn(a,b){
+def myfn(a=2000,b=3000){
     println "Welcome to Functions"
     println "my a value is ${a} & my b value is ${b}"
 }
@@ -11,6 +11,7 @@ pipeline{
                 script {
                     // Calling a function
                     myfn(200,400)
+                    myfn(100)
                 }
             }
         }
